@@ -1,7 +1,7 @@
 import { Elysia } from "elysia";
 
 const app = new Elysia()
-  .get("/", () => "Elysia × Defang is awesome!")
+  .get("/", () => "Elysia × Defang is super cool!")
   .listen({
     hostname: "0.0.0.0",
     port: 3000,
